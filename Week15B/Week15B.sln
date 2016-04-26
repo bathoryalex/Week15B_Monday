@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemo", "ThreadPoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matcher", "Matcher\Matcher.csproj", "{CCD89106-8435-404D-8791-192B692DACF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{D08F7D46-5C59-4A32-957D-C30F816A4FCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CCD89106-8435-404D-8791-192B692DACF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCD89106-8435-404D-8791-192B692DACF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCD89106-8435-404D-8791-192B692DACF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08F7D46-5C59-4A32-957D-C30F816A4FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08F7D46-5C59-4A32-957D-C30F816A4FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08F7D46-5C59-4A32-957D-C30F816A4FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08F7D46-5C59-4A32-957D-C30F816A4FCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

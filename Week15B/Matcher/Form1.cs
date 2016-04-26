@@ -13,7 +13,6 @@ namespace Matcher
 {
     public partial class Form1 : Form
     {
-        private Regex m_Regex = null;
 
         public Form1()
         {
