@@ -33,6 +33,8 @@
             this.patternTextBox = new System.Windows.Forms.TextBox();
             this.searchButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.matchedListBox = new System.Windows.Forms.ListBox();
+            this.matchedLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textLabel
@@ -77,11 +79,30 @@
             this.textBox1.Size = new System.Drawing.Size(424, 224);
             this.textBox1.TabIndex = 5;
             // 
+            // matchedListBox
+            // 
+            this.matchedListBox.FormattingEnabled = true;
+            this.matchedListBox.Location = new System.Drawing.Point(584, 8);
+            this.matchedListBox.Name = "matchedListBox";
+            this.matchedListBox.Size = new System.Drawing.Size(248, 264);
+            this.matchedListBox.TabIndex = 6;
+            // 
+            // matchedLabel
+            // 
+            this.matchedLabel.AutoSize = true;
+            this.matchedLabel.Location = new System.Drawing.Point(528, 8);
+            this.matchedLabel.Name = "matchedLabel";
+            this.matchedLabel.Size = new System.Drawing.Size(49, 13);
+            this.matchedLabel.TabIndex = 7;
+            this.matchedLabel.Text = "Matched";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(497, 314);
+            this.ClientSize = new System.Drawing.Size(846, 314);
+            this.Controls.Add(this.matchedLabel);
+            this.Controls.Add(this.matchedListBox);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.patternTextBox);
@@ -101,6 +122,8 @@
         private System.Windows.Forms.TextBox patternTextBox;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ListBox matchedListBox;
+        private System.Windows.Forms.Label matchedLabel;
     }
 }
 
