@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matcher", "Matcher\Matcher.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{D08F7D46-5C59-4A32-957D-C30F816A4FCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persons", "Persons\Persons.csproj", "{9DBDFB7F-9F9D-44F5-BA9D-336AEF99C8AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D08F7D46-5C59-4A32-957D-C30F816A4FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08F7D46-5C59-4A32-957D-C30F816A4FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08F7D46-5C59-4A32-957D-C30F816A4FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBDFB7F-9F9D-44F5-BA9D-336AEF99C8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBDFB7F-9F9D-44F5-BA9D-336AEF99C8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBDFB7F-9F9D-44F5-BA9D-336AEF99C8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBDFB7F-9F9D-44F5-BA9D-336AEF99C8AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
